@@ -21,7 +21,7 @@ const PricingSection = () => {
           Yearly
         </button>
       </Container>
-      <Stack gap={3} direction="horizontal" className="justify-content-center">
+      <Stack gap={3} direction="horizontal" className="justify-content-center mb-5">
         <Card
           className="border border-black rounded-0"
           style={{ width: "22rem", height: "22rem" }}

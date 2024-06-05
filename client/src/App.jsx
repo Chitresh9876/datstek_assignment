@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection';
 import BenifitSection from './components/BenifitSection';
 import Image3 from './components/Image3';
 import PricingSection from './components/PricingSection';
+import Image5 from './components/Image5';
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
         <HeroSection />
         <BenifitSection />
         <Image3 />
-        <PricingSection/>
+        <PricingSection />
+        <Image5/>
       </div>
       </>
   )
