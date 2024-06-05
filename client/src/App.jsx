@@ -8,6 +8,7 @@ import Image3 from './components/Image3';
 import PricingSection from './components/PricingSection';
 import Image5 from './components/Image5';
 import QuestionSection from './components/QuestionSection';
+import ReviewSection from './components/ReviewSection';
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
         <Image3 />
         <PricingSection />
         <Image5 />
-        <QuestionSection/>
+        <QuestionSection />
+        <ReviewSection/>
       </div>
       </>
   )
