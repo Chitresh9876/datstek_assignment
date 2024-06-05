@@ -5,7 +5,7 @@ import Defalut from '../assets/Defalut.jpg';
 
 const BenifitSection = () => {
     return (
-      <div className="mb-5">
+      <div className="mb-5" style={{marginTop:"5rem"}}>
     <Stack direction='horizontal' gap={2} className="mb-4">
           <div className='fw-bold fs-2 ps-5' style={{width:"40%"}}>
               Benifits

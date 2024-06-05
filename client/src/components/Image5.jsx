@@ -4,7 +4,12 @@ import Defalut from "../assets/Defalut.jpg";
 
 const Image5 = () => {
   return (
-    <Stack gap={1} direction="horizontal" className="mb-5 ps-5">
+    <Stack
+      gap={1}
+      direction="horizontal"
+      className="mb-5 ps-5"
+      style={{ marginTop: "5rem" }}
+    >
       <div className="p-5" style={{ width: "50%" }}>
         <div className="fw-bolder fs-1">
           Create Legal Documents Online Easily
@@ -24,8 +29,13 @@ const Image5 = () => {
           </button>
         </div>
       </div>
-      <div className="ms-auto" style={{ width: "50%"}}>
-        <img src={Defalut} class="img-thumbnail rounded-0" style={{width:"90%", height:"20rem"}} alt="..."></img>
+      <div className="ms-auto" style={{ width: "50%" }}>
+        <img
+          src={Defalut}
+          class="img-thumbnail rounded-0"
+          style={{ width: "90%", height: "20rem" }}
+          alt="..."
+        ></img>
       </div>
     </Stack>
   );

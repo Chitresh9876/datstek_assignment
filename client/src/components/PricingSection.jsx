@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 const PricingSection = () => {
   return (
     <>
-      <Container className="text-center mb-5" style={{ width: "50%" }}>
+      <Container className="text-center mb-5" style={{ width: "50%", marginTop:"5rem" }}>
         <p>MiCousel</p>
         <h1 className="fw-bold mb-3">Pricing Options</h1>
         <p className="mb-4">Choose the plan that suits your needs and budget</p>

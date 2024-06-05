@@ -7,7 +7,7 @@ import Defalut from "../assets/Defalut.jpg";
 const Image3 = () => {
   return (
     <>
-      <Container className="text-center mb-5" style={{ width: "50%" }}>
+      <Container className="text-center mb-5" style={{ width: "50%", marginTop:"5rem" }}>
         <p>MiCousel</p>
         <h1 className="fw-bold mb-3">
           Create Legal Documents & Contracts Online in Minutes

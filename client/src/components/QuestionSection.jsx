@@ -41,6 +41,7 @@ const QuestionSection = () => {
       gap={2}
       direction="horizontal"
       className="justify-content-between m-5 align-items-start"
+      style={{ marginTop: "5rem" }}
     >
       <div style={{ width: "40%" }}>
         <h1 className="fw-bold">Questions</h1>

@@ -5,7 +5,7 @@ import Stack from 'react-bootstrap/esm/Stack'
 
 const ReviewSection = () => {
   return (
-    <div className="m-5">
+    <div className="m-5" style={{ marginTop: "5rem" }}>
       <div className="mb-5">
         <h1 className="fw-bold mb-3">Satisfied Customers</h1>
         <p>Read what are customer have to say about Micoursel</p>
