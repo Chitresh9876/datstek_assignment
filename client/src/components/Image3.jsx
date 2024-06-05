@@ -6,13 +6,13 @@ import Defalut from "../assets/Defalut.jpg";
 
 const Image3 = () => {
   return (
-    <div className="">
+    <>
       <Container className="text-center mb-5" style={{ width: "50%" }}>
         <p>MiCousel</p>
         <h1 className="fw-bold mb-3">
           Create Legal Documents & Contracts Online in Minutes
         </h1>
-        <p className="">
+        <p>
           Welcome to MiCounsel, the platform that allows you to easily create
           legal documents and contracts online in just minutes. Say goodbye to
           the hassle of traditional paperwork and enjoy the convenience of our
@@ -83,7 +83,7 @@ const Image3 = () => {
           `Learn More &#62;`
         </button>
       </Stack>
-    </div>
+    </>
   );
 };
 
