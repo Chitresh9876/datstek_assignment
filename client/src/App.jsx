@@ -4,6 +4,7 @@ import './App.css'
 import NavigationBar from './components/NavigationBar'
 import HeroSection from './components/HeroSection';
 import BenifitSection from './components/BenifitSection';
+import Image3 from './components/Image3';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       <NavigationBar />
     <div className='m-5 p-5'>
         <HeroSection />
-        <BenifitSection/>
+        <BenifitSection />
+        <Image3/>
       </div>
       </>
   )
